@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    fuubar-testunit (0.1)
+      ruby-progressbar (~> 0.0.10)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ruby-progressbar (0.0.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fuubar-testunit!
