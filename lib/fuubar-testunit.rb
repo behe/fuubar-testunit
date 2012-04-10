@@ -36,7 +36,7 @@ class FuubarRunner < Test::Unit::UI::Console::TestRunner
 
   def output_increment
     with_color do
-      @progress_bar.instance_variable_set("@title", "  #{@test_result.assertion_count}/#{@example_count}")
+      @progress_bar.instance_variable_set("@title", "  #{@test_result.run_count}/#{@example_count}")
       @progress_bar.inc
     end
   end
