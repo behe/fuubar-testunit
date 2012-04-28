@@ -1,5 +1,5 @@
 require 'test/unit/ui/console/testrunner'
-#require 'progressbar'
+require 'progressbar'
 
 class FuubarRunner < Test::Unit::UI::Console::TestRunner
 
