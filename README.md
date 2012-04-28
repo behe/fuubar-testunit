@@ -5,7 +5,7 @@ Fuubar is an instafailing Test::Unit formatter that uses a progress bar instead 
 Installation
 Installing Fuubar is easy. Just put it in your Gemfile:
 
-    gem "fuubar-testunit", :git => "git://github.com/behe/fuubar-testunit.git", :require => "fuubar_runner"
+    gem "fuubar-testunit", :git => "git://github.com/behe/fuubar-testunit.git"
 
 Then run your tests like this:
 
