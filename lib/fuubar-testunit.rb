@@ -5,7 +5,7 @@ class FuubarRunner < Test::Unit::UI::Console::TestRunner
 
   def started(test_result)
     @test_result           = test_result
-    @example_count         = @mediator.instance_eval { @suite }.size + 1
+    @example_count         = @mediator.instance_eval { @suite }.size
     @progress_bar          = ProgressBar.new("  #{@example_count} tests", @example_count, @io)
     @progress_bar.bar_mark = '='
   end
