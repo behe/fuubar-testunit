@@ -1,6 +1,6 @@
 fuubar-testunit
 ===============
-Fuubar is an instafailing Test::Unit formatter that uses a progress bar instead of a string of letters and dots as feedback. It is a Test::Unit version of Fuubar for RSpec.
+Fuubar is an instafailing Test::Unit formatter that uses a progress bar instead of a string of letters and dots as feedback. It is a Test::Unit version of [Fuubar for RSpec](https://github.com/jeffkreeftmeijer/fuubar).
 
 Installation
 Installing Fuubar is easy. Just put it in your Gemfile:
